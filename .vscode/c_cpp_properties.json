@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/hamza/Noor_robot_ws/devel/include/**",
+        "/home/hamza/Noor_ws/catkin_ws/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/hamza/Noor_ws/catkin_ws/src/TestPackages/imu_calib/include/**",
+        "/home/hamza/Noor_robot_ws/src/nourrobot/noor_bringup/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

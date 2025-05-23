@@ -1,0 +1,17 @@
+global_costmap:
+  global_frame: map
+  robot_base_frame: base_footprint
+  static_map: true
+  transform_tolerance: 3.5
+  
+  plugins:
+    - {name: static_layer, type: "costmap_2d::StaticLayer"}
+    - {name: obstacles, type: "costmap_2d::ObstacleLayer"}
+    - {name: inflation, type: "costmap_2d::InflationLayer"}
+
+  static_layer:
+    map_topic: /map  # Explicitly define map topic
+    subscribe_to_updates: true  # Enable map updates
+    trinary_costmap: true
+    unknown_cost_value: -1
+    lethal_cost_threshold: 100

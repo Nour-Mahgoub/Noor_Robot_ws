@@ -1,0 +1,8 @@
+prefix=/home/hamza/Noor_robot_ws/install
+
+Name: noor_description
+Description: Description of noor_description
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/hamza/Noor_robot_ws/install
+
+Name: rplidar
+Description: Description of rplidar
+Version: 2.1.5
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
